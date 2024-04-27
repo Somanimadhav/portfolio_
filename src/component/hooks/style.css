@@ -1,0 +1,49 @@
+.center_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.button {
+  background-color: #9000ff; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.increment_button {
+  background-color: #008cba; /* Blue */
+}
+
+.increment_button:hover {
+  background-color: #0073e6; /* Darker Blue */
+}
+
+.decrement_button {
+  background-color: #f44336; /* Red */
+}
+
+.decrement_button:hover {
+  background-color: #d63014; /* Darker Red */
+}
+
+p{
+  color : black;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10;
+  /* margin-bottom: -120px; */
+}
